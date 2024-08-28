@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    /* background-color: #18181b;  */
+}
+
+.parent {
+    position: relative; /* relative */
+    top: 0; /* top-0 */
+    left: 0; /* left-0 */
+    width: 100%; /* w-full */
+    height: 700vh; /* h-[700vh] */
+}
+
+.child {
+    width: 100%; /* w-full */
+    position: sticky; /* sticky */
+    top: 0; /* top-0 */
+    left: 0; /* left-0 */
+    height: 100vh; /* h-screen */
+}
+
+#frame {
+    width: 100%; /* w-full */
+    height: 100vh; /* h-screen */
+}
+
